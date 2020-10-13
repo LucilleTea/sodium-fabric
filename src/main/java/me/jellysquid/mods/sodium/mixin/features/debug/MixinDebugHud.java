@@ -61,6 +61,7 @@ public abstract class MixinDebugHud {
         }
 
         strings.addAll(backend.getDebugStrings());
+        strings.add("Sodium fork by Lucy ❤");
 
         return strings;
     }
